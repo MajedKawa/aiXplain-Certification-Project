@@ -321,16 +321,6 @@ def main():
     
     # Sidebar for setup and configuration
     with st.sidebar:
-        st.header("Setup & Configuration")
-        
-        # API Key input
-        api_key = st.text_input("aiXplain API Key", type="password", help="Enter your aiXplain API key")
-        if api_key:
-            os.environ["AIXPLAIN_API_KEY"] = api_key
-            st.success("API Key set!")
-        
-        st.markdown("---")
-        
         # File upload section
         st.header("Document Upload")
         uploaded_files = st.file_uploader(

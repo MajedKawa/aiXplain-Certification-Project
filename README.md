@@ -51,13 +51,11 @@ streamlit run policy_navigator_ui.py
 
 Getting Started
 
-1. Enter your aiXplain API Key in the sidebar
+1. Upload PDF documents you want to analyze (policies, regulations, reports, etc.) in the sidebar
 
-2. Upload PDF documents you want to analyze (policies, regulations, reports, etc.)
+2. Click "Process Files & Setup Agents" to initialize the system
 
-3. Click "Process Files & Setup Agents" to initialize the system
-
-4. Start chatting with your Policy Navigator Agent!
+3. Start chatting with your Policy Navigator Agent!
 
 ## Tool integration steps
 
