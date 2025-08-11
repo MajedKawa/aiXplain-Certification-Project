@@ -39,7 +39,7 @@ pip install -r requirements.txt
 3. Set up environment variables
 ```bash
 # Create a .env file
-echo "AIXPLAIN_API_KEY=your_api_key_here" > .env
+echo 'AIXPLAIN_API_KEY=your_api_key_here' > .env
 ```
 
 4. Run the application
@@ -91,7 +91,7 @@ User Prompt: Using this website "Using this website "https://www.who.int/publica
 Response: 
 Arboviral diseases are primarily transmitted by Aedes mosquitoes. These diseases include dengue, chikungunya, Zika, and yellow fever. The transmission of these viruses poses an increasing threat to global health, particularly due to factors such as climate change, urbanization, and growing human mobility. If you have any further questions or need more information, feel free to ask!
 
-#2 Asking the model a question related to the dataset (datasource):
+#2 Asking the model a question related to the dataset (datasource)
 
 One of the data sources in my project is a dataset about GDPR.
 Here, the user query is “Provide me with examples of GDPR violations in Romania”
@@ -100,7 +100,7 @@ And the team agent selects the needed GDPR agent to answer the question correctl
 #3 Asking the model a question related to a document
 
 Here, the user asks the agent a question and provides the document name.
-The agent in this case will search in the global index trying to finds an answer to the user’s question
+The agent in this case will search in the global index, trying to find an answer to the user’s question
 For example, the user query “Based on this document: 'who_guidelines.pdf' provide examples of health risks due to poor housing”
 The team agent then selects the necessary agent (Global Document RAG Agent) to answer the question correctly, based on the global document indexed.
 
