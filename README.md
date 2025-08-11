@@ -59,9 +59,29 @@ Getting Started
 
 4. Start chatting with your Policy Navigator Agent!
 
+## Tool integration steps
+
+1. Add a marketplace tool to the agent
+
+Added Scrape Website Tool (Marketplace tool) to the Scraper Agent
+
+<img width="1043" height="434" alt="image" src="https://github.com/user-attachments/assets/dd28ef60-f3fa-4320-bcce-9b4b021c51ba" />
+
+2. Add a custom Python tool
+
+<img width="799" height="575" alt="image" src="https://github.com/user-attachments/assets/11a032c5-b806-48e1-81c0-4d1adb412efa" />
+
+<img width="582" height="193" alt="image" src="https://github.com/user-attachments/assets/2877dedf-56f4-492b-9d04-54edbbc96ea9" />
+
+3. Using data assets as tools:
+   
+Using indices as tools:
+
+<img width="1162" height="569" alt="image" src="https://github.com/user-attachments/assets/2c686f69-7b0e-47df-93d9-fc13bf7f139a" />
+   
 ## Integration with Slack
 
-Currently, the agent sends notifications to this workspace (https://join.slack.com/t/policynavigatorbot/shared_invite/zt-3aut2cxw5-TWb2YXTOGbg5ok424mkLXg). This is for testing and will expire soon. However, you can modify this, and any detail you want, by changing the internal agent's or any agent code (Check buildingTheAgents.ipynb notebook to modify the current implementation)
+Currently, the agent sends notifications to this workspace (https://join.slack.com/t/policynavigatorbot/shared_invite/zt-3aut2cxw5-TWb2YXTOGbg5ok424mkLXg). This is for testing and will expire soon. However, you can modify this and any detail you want by changing any agent code (Check buildingTheAgents.ipynb notebook to modify the current implementation)
 
 ## Example inputs/outputs
 
